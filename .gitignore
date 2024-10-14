@@ -1,0 +1,22 @@
+# Ignorar la carpeta de salida generada por Hugo
+/public/
+/resources/
+
+# Archivos de sistema o temporales
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del entorno local
+/.env
+/hugo_stats.json
+
+# Configuración de editores
+.idea/
+/.vscode/
+/*.swp
+
+# Ignorar los archivos de caché o build
+/node_modules/
+/npm-debug.log
+yarn.lock
+package-lock.json
